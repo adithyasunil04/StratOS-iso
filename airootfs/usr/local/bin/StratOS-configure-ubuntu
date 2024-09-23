@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+grab &>/dev/null
+bash /usr/local/bin/StratOS-configure-gnome
+if [[ -d /bedrock ]]; then
+    python /opt/maneki-neko/main.py # don't execute in the live env
+    ping -c 1 gnu.org
+    if [[ $? -ne 0 ]]; then
+	notify-send "No internet connection found. This script will execute when the device is connected to the internet. Exiting."
+	exit 1
+    fi
+    # notify-send "Bootstrapping Ubuntu..."
+    # pkexec /bedrock/bin/brl fetch ubuntu
+    # notify-send "Cleaning up..."
+    # note that sed will work without sudo this once
+    sudo sed 's/timeout = 30/timeout = 0/g' -i /bedrock/etc/bedrock.conf # make this change regardless of whether a distro is installed or not
+    sudo sed -i '106,107d' /etc/sudoers # remove stratos user and sed hack from sudoers file
+    rm -f $HOME/.config/autostart/ubuntu.desktop 2>/dev/null
+    # sudo apt update
+    # sudo apt -y upgrade
+    # notify-send 'Ubuntu bootstrapped successfully.'
+fi

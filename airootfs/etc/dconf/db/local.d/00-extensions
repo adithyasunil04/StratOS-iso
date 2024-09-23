@@ -1,0 +1,2 @@
+[org/gnome/shell]
+enabled-extensions=['blur-my-shell@aunetx','burn-my-windows@scheegans.github.com','dash-to-dock@micxgx.gmail.com','logomenu@aryan_k','forge@jmmaranan.com','space-bar@luchrioh','user-theme@gnome-shell-extensions.gcampax.github.com']

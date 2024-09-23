@@ -1,0 +1,174 @@
+alsa-utils
+# albert
+amd-ucode
+# arch-install-scripts
+# archinstall
+archlinux-keyring
+# b43-fwcutter
+base
+base-devel
+bat
+# bind
+bibata-cursor-theme-bin
+broadcom-wl
+# btrfs-progs
+calamares
+ckbcomp
+cmake
+chromium
+# clonezilla
+# cryptsetup
+# darkhttpd
+dbus
+# ddrescue
+dhclient
+dhcpcd
+dialog
+diffutils
+dmidecode
+dmraid
+dnsmasq
+dosfstools
+e2fsprogs
+edk2-shell
+efibootmgr
+# emacs
+ethtool
+exfatprogs
+# eww
+eza
+f2fs-tools
+fatresize
+fd
+fish
+# fsarchiver
+fzf
+git
+github-cli
+
+# GNOME-related packages
+# gnome
+gdm
+gnome-backgrounds
+gnome-characters
+# gnome-color-manager
+gnome-control-center
+gnome-font-viewer
+gnome-keyring
+gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+# gnome-software
+gnome-system-monitor
+gedit
+gnome-terminal
+# gnome-text-editor
+# gnome-tour
+gnome-user-share
+nautilus
+loupe
+xdg-desktop-portal-gnome
+xdg-user-dirs-gtk
+
+
+
+# gnu-netcat
+gpart
+# gpm
+gptfdisk
+grab
+grub
+hdparm
+intel-ucode
+amd-ucode
+iw
+iwd
+kcrash
+# kpmcore
+kvantum
+lazygit
+less
+# libfido2
+libusb-compat
+libxpm
+licenses
+linux
+linux-atm
+linux-firmware
+linux-firmware-marvell
+# livecd-sounds
+# litefm
+# lsscsi
+lvm2
+# lynx
+man-db
+man-pages
+mdadm
+memtest86+
+memtest86+-efi
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-netconf
+mkinitcpio-nfs-utils
+# mkinitcpio-openswap
+modemmanager
+mtools
+nano
+nbd
+# ndisc6
+neovim
+networkmanager
+nfs-utils
+# nilfs-utils
+npm
+ntfs-3g
+# nvme-cli
+open-iscsi
+open-vm-tools
+openssh
+os-prober
+# partclone
+# parted
+# partimage
+# pcsclite
+pv
+python-pyqt5
+qt5-wayland
+qt6-wayland
+refind
+# reflector
+# rock
+rockers
+ripgrep
+rsync
+sg3_utils
+smartmontools
+sof-firmware
+squashfs-tools
+starship
+# stratmacs
+sudo
+syslinux
+systemd-resolvconf
+# tcpdump
+terminus-font
+testdisk
+# tpm2-tools
+# tpm2-tss
+ttf-jetbrains-mono-nerd
+# udftools
+usb_modeswitch
+usbmuxd
+usbutils
+# vim
+wireless-regdb
+wireless_tools
+wget
+wpa_supplicant
+xorg
+xorg-server
+yay-bin
+zsh
+zsh-syntax-highlighting

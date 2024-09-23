@@ -1,0 +1,9 @@
+output/*
+!output/StratOS-*.iso
+output.bak/
+
+# NO UNNECESSARY THEMES AND ICONS IN MY FORK!!!
+
+airootfs/etc/skel/.themes/Gruvbox-Dark-B/*
+airootfs/etc/skel/.icons/Tokyonight-Moon/*
+airootfs/etc/skel/.icons/Gruvbox-Dark/*
