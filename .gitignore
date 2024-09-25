@@ -7,3 +7,6 @@ output.bak/
 airootfs/etc/skel/.themes/Gruvbox-Dark-B/*
 airootfs/etc/skel/.icons/Tokyonight-Moon/*
 airootfs/etc/skel/.icons/Gruvbox-Dark/*
+
+*.tar.zst
+
